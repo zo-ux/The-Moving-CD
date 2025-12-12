@@ -1,0 +1,84 @@
+body{
+  background-color: bisque;
+  text-align: center;
+  
+  background-image: url(o40jIeL4AFSPdG4pCAGHQNKhb4Lg0EErAdINee~tplv-sdweummd6v-text-logo-v1_QGlzYWJlbGxlbWVycml0dDU=_q75.jpeg);
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.cd{
+  margin: 60px 480px;
+  background-color: aqua;
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  background-image: url(4017146f595ac0db6bfab70c46fbc9a1.jpg);
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  background-size: contain;
+  background-size: 100% 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+  animation: spin 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.circle
+{
+  height: 200px;
+  width: 200px;
+  background-color:white;
+  border-radius: 50%;
+  opacity: 20%;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+
+@keyframes spin {
+  0%
+  {
+    transform: rotate(0deg);
+  }
+  100%
+  {
+    transform: rotate(360deg);
+  }
+}
+
+.bottom
+{
+  bottom: 0;
+  height: 100px;
+  position: sticky;
+  background-color: burlywood;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#progressbar
+{
+  width: 80vw;
+  align-items: center;
+  cursor: pointer;
+}
+.icons
+{
+  margin: 12px;
+  cursor: pointer;
+}
+.pause-spin {
+  animation-play-state: paused;
+}
+
